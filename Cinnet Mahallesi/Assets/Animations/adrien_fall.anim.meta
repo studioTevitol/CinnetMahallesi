@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Minijam/Assets/Animations/adrien_fall.anim.meta
+guid: 33874a2f1c5991b41937b4f804d30078
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+=======
+guid: e4f027d4c05e27c43b865a864f9afa97
+PrefabImporter:
+  externalObjects: {}
+>>>>>>> feature/enemy-ai:Minijam/Assets/Prefabs/Bullet.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
