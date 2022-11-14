@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class ArmController : MonoBehaviour
 {
-    public Rigidbody2D playerRb;
+    public Transform player;
     private Vector2 _mousePos;
     private Vector2 _mouseDirection;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -21,13 +17,13 @@ public class ArmController : MonoBehaviour
         {
             if (_mouseDirection.x < 0)
             {
-                playerRb.transform.localScale = new Vector3(-8, 8, 0);
-                transform.localScale = new Vector3(-1, -1, 0);
+                player.localScale = new Vector3(-4, 4, 0);
+                transform.localScale = new Vector3(4, -4, 0);
             }
             else
             {
-                playerRb.transform.localScale = new Vector3(8, 8, 0);
-                transform.localScale = new Vector3(1, 1, 0);
+                player.localScale = new Vector3(4, 4, 0);
+                transform.localScale = new Vector3(4, 4, 0);
             }
         }
     }
