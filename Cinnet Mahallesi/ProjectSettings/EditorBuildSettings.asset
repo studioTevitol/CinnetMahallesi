@@ -6,6 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/House_Messy.unity
+    guid: 7bc41cdcf027cbd4fa4cf3f1a8061623
+  - enabled: 1
+    path: Assets/Scenes/garden_corrupt.unity
+    guid: 93383bc6dcd8212489913468e1936493
+  - enabled: 1
+    path: Assets/Scenes/arena1.unity
+    guid: ceb5069256f1e144791cce1adc6b71fc
+  - enabled: 1
+    path: Assets/Scenes/coridor.unity
+    guid: da95e0eb0600ec14cab962ab89ab8d0b
+  - enabled: 1
+    path: Assets/Scenes/arena2.unity
+    guid: b2174bcbd03f2ac4f91eca48497575d7
+  - enabled: 1
+    path: Assets/Scenes/coridor_stairs.unity
+    guid: c31608b07c8faf44bbc87550df6c1954
+  - enabled: 1
+    path: Assets/Scenes/arena3.unity
+    guid: 21e0ad88fb59b384187c92f6d44c14ea
+  - enabled: 1
+    path: Assets/Scenes/garden_not_corrupt.unity
+    guid: 5d4cd5fd74d2dcc41bb2bb33622a88a0
+  - enabled: 1
+    path: Assets/Scenes/home_not_corrupt.unity
+    guid: e468d135ca13a5e479a20b5db0f7c5c2
+  - enabled: 0
+    path: Assets/Scenes/AdrianRoom.unity
+    guid: 57854f80beeb1034089765e91f548f44
+  - enabled: 0
+    path: Assets/Scenes/Cathedral.unity
+    guid: caa513920d4b71040ab289ec76bce0db
+  - enabled: 0
+    path: Assets/Scenes/Dialogue.unity
+    guid: 769b29502e857ea4fba35fa7d07e71aa
+  - enabled: 0
+    path: Assets/Scenes/MiniJAm_AdriansRoom.unity
+    guid: 93b1d889b8b0ec042bbfefa088d8f19d
+  - enabled: 0
+    path: Assets/Scenes/Outside_Clean.unity
+    guid: 75baebf83d19f254d9c5c1c6c1be7336
   m_configObjects: {}

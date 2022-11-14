@@ -9,6 +9,7 @@ public class Shoot : MonoBehaviour
 
     public void Fire()
     {
+        Debug.Log("shoot");
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

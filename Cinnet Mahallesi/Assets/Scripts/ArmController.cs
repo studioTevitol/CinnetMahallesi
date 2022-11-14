@@ -26,5 +26,5 @@ public class ArmController : MonoBehaviour
                 transform.localScale = new Vector3(4, 4, 0);
             }
         }
-    }
+    } 
 }

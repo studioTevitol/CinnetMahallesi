@@ -151,8 +151,8 @@ GameObject:
   - component: {fileID: 8761530939478349616}
   - component: {fileID: 1231319544534473647}
   - component: {fileID: 9021688634202870891}
-  - component: {fileID: 1864209577442262148}
   - component: {fileID: 1709978942}
+  - component: {fileID: 1561931829514928426}
   m_Layer: 0
   m_Name: DemonBody
   m_TagString: Enemy
@@ -274,25 +274,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1864209577442262148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2612089529007777984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdc281226a611db4ab59a7f219b9d409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movePoints:
-  - {fileID: 2260387061027114210}
-  - {fileID: 2432598263891905704}
-  speed: 5
-  canMoveRight: 0
-  flipAngleLeft: 0
-  flipAngleRight: 0
 --- !u!114 &1709978942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +287,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &1561931829514928426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2612089529007777984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba116a3b14ef0845a860eb6e3e27412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoints:
+  - {fileID: 2260387061027114210}
+  - {fileID: 2432598263891905704}
+  speed: 5
+  canMoveRight: 0
+  flipAngleLeft: 0
+  flipAngleRight: 0
 --- !u!1 &5935450716407050266
 GameObject:
   m_ObjectHideFlags: 0

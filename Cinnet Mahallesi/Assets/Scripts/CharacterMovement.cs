@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DialogueEditor;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -10,10 +11,12 @@ public class CharacterMovement : MonoBehaviour
     public bool canMove = true;
     public float speed;
     public float jumpSpeed;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         shootManager = GetComponent<Shoot>();
+        
     }
 
     void FixedUpdate()
