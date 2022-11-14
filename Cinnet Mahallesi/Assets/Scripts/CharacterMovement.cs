@@ -25,7 +25,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) Jump();
         if (canMove && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            shootManager.Fire();
+            if(shootManager != null) shootManager.Fire();
         }
     }
 
