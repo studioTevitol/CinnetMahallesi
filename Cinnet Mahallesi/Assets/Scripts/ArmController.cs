@@ -18,7 +18,7 @@ public class ArmController : MonoBehaviour
             if (_mouseDirection.x < 0)
             {
                 player.localScale = new Vector3(-4, 4, 0);
-                transform.localScale = new Vector3(-4, -4, 0);
+                transform.localScale = new Vector3(4, -4, 0);
             }
             else
             {
