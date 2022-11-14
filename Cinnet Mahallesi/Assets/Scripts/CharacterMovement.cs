@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Shoot shootManager;
     public bool canJump = true;
     public bool canMove = true;
     public float speed;
@@ -12,18 +13,25 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        shootManager = GetComponent<Shoot>();
     }
 
     void FixedUpdate()
     {
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if(canMove) {
+            float moveInput = Input.GetAxis("Horizontal");
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        }
         if (Input.GetKey(KeyCode.Space)) Jump();
+        if (canMove && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            if(shootManager != null) shootManager.Fire();
+        }
     }
 
     void Jump()
     {
-        if (canJump)
+        if (canMove && canJump)
         {
             canJump = false;
             rb.velocity = Vector2.up * jumpSpeed;
