@@ -17,13 +17,13 @@ public class ArmController : MonoBehaviour
         {
             if (_mouseDirection.x < 0)
             {
-                player.localScale = new Vector3(-8, 8, 0);
-                transform.localScale = new Vector3(-1, -1, 0);
+                player.localScale = new Vector3(-4, 4, 0);
+                transform.localScale = new Vector3(4, -4, 0);
             }
             else
             {
-                player.localScale = new Vector3(8, 8, 0);
-                transform.localScale = new Vector3(1, 1, 0);
+                player.localScale = new Vector3(4, 4, 0);
+                transform.localScale = new Vector3(4, 4, 0);
             }
         }
     }
