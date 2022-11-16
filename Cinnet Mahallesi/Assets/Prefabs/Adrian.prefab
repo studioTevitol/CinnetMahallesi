@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 30
   m_Sprite: {fileID: 1420053053, guid: 524edd7859c51c946a8f7307221d6b78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_Sprite: {fileID: 2127500448, guid: cd20d27a7285ea648b6f16aa54789465, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -248,7 +248,6 @@ GameObject:
   - component: {fileID: 3158861440783907243}
   - component: {fileID: 3158861440783907236}
   - component: {fileID: 3158861440783907239}
-  - component: {fileID: 1448572796}
   m_Layer: 0
   m_Name: Adrian
   m_TagString: Player
@@ -312,7 +311,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 20
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 5
   m_Material: {fileID: 0}
@@ -352,15 +351,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 3158861440613961124}
   bulletPrefab: {fileID: 1679071210846497646, guid: c6134c283498ca84f8c25a442bde2862, type: 3}
---- !u!114 &1448572796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3158861440783907242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac4be84022fbb346831edadf20a4e4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
