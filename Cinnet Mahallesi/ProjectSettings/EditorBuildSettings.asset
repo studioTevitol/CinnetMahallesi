@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House_Messy.unity
     guid: 7bc41cdcf027cbd4fa4cf3f1a8061623
-  - enabled: 1
-    path: Assets/Scenes/garden_corrupt.unity
-    guid: 93383bc6dcd8212489913468e1936493
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/arena1.unity
     guid: ceb5069256f1e144791cce1adc6b71fc

@@ -325,13 +325,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3158861440783907236, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
+      propertyPath: jumpSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3158861440783907238, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3158861440783907238, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3842743
+      value: -8.09
       objectReference: {fileID: 0}
     - target: {fileID: 3158861440783907238, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
       propertyPath: m_LocalPosition.y
@@ -372,6 +376,14 @@ PrefabInstance:
     - target: {fileID: 3158861440783907242, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
       propertyPath: m_Name
       value: Adrian
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158861440783907243, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
+      propertyPath: m_LinearDrag
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158861440783907243, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
+      propertyPath: m_GravityScale
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a40ff4b6917e6b94fb64c6994b7c3c73, type: 3}
