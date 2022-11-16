@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 34
   m_Sprite: {fileID: 912058743, guid: 2ad0cd8a1ff0a88409895a81ca4fddbb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -114,6 +114,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6148809008362648280}
+  - component: {fileID: 2578434110446926688}
+  - component: {fileID: 5277580122584708794}
+  - component: {fileID: 34792540316031925}
   m_Layer: 0
   m_Name: DemonParent
   m_TagString: Enemy
@@ -139,6 +142,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2578434110446926688
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759026824424464817}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.08447623, y: -0.29038668}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.85216665, y: 1.9186778}
+  m_EdgeRadius: 0
+--- !u!114 &5277580122584708794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759026824424464817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba116a3b14ef0845a860eb6e3e27412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoints:
+  - {fileID: 2016407617703247274}
+  - {fileID: 2695238619773058528}
+  speed: 5
+  canMoveRight: 0
+  flipAngleLeft: 0
+  flipAngleRight: 0
+--- !u!114 &34792540316031925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759026824424464817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93f986ff88afad478bac77a63752b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 250
 --- !u!1 &2370366283556870536
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,10 +210,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2876852119245988019}
   - component: {fileID: 9021290583495108216}
-  - component: {fileID: 1563800887586450151}
-  - component: {fileID: 2124074766249577932}
-  - component: {fileID: 334737541684184182}
   - component: {fileID: 2150112068838436896}
+  - component: {fileID: 5164981660946964908}
   m_Layer: 0
   m_Name: DemonBody
   m_TagString: Enemy
@@ -216,7 +275,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 35
   m_Sprite: {fileID: -979559167, guid: e0c56d7e25774e74baffbc0e014b8cb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -228,64 +287,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1563800887586450151
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370366283556870536}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.032630518, y: -0.07356176}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.18720272, y: 0.4747365}
-  m_EdgeRadius: 0
---- !u!114 &2124074766249577932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370366283556870536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdc281226a611db4ab59a7f219b9d409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movePoints:
-  - {fileID: 2016407617703247274}
-  - {fileID: 2695238619773058528}
-  speed: 5
-  canMoveRight: 0
-  flipAngleLeft: 0
-  flipAngleRight: 0
---- !u!114 &334737541684184182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370366283556870536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c93f986ff88afad478bac77a63752b6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!95 &2150112068838436896
 Animator:
   serializedVersion: 4
@@ -306,6 +307,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5164981660946964908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370366283556870536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba116a3b14ef0845a860eb6e3e27412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoints: []
+  speed: 7
+  canMoveRight: 0
+  flipAngleLeft: 0
+  flipAngleRight: 0
 --- !u!1 &6267830903204561234
 GameObject:
   m_ObjectHideFlags: 0
