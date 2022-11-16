@@ -7,16 +7,9 @@ public class Shoot : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    void Update()
+    public void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            Fire();
-        }
-    }
-
-    void Fire()
-    {
+        Debug.Log("shoot");
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }
