@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AIPlayerInteraction : MonoBehaviour
+public class AIPlayerInteraction1 : MonoBehaviour
 {
 
     private void OnTriggerEnter2D(Collider2D collider)
