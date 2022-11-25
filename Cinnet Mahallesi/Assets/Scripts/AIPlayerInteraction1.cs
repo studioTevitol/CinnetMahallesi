@@ -9,7 +9,15 @@ public class AIPlayerInteraction1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.CompareTag("Enemy"))
+        if (collider.gameObject.CompareTag("Enemy") )
+        {
+            PlayerDeath();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Spikes"))
         {
             PlayerDeath();
         }
