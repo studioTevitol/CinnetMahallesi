@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChoiceScreen : MonoBehaviour
@@ -20,5 +21,15 @@ public class ChoiceScreen : MonoBehaviour
     public void NihilistEnding()
     {
         player.position = new Vector3(-26.5f,-1f,0f);
+    }
+
+    public void GodDeathAnim()
+    {
+        
+    }
+
+    public void LuciferDeathAnim()
+    {
+        
     }
 }

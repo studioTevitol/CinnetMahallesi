@@ -247,7 +247,6 @@ GameObject:
   - component: {fileID: 3158861440783907237}
   - component: {fileID: 3158861440783907243}
   - component: {fileID: 3158861440783907236}
-  - component: {fileID: 3158861440783907239}
   - component: {fileID: 1337415122}
   m_Layer: 0
   m_Name: Adrian
@@ -338,20 +337,6 @@ MonoBehaviour:
   canMove: 1
   speed: 12
   jumpSpeed: 20
---- !u!114 &3158861440783907239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3158861440783907242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d01f025e83c83b042a4dad2feaa6c0ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 3158861440613961124}
-  bulletPrefab: {fileID: 1679071210846497646, guid: c6134c283498ca84f8c25a442bde2862, type: 3}
 --- !u!114 &1337415122
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,14 +6,15 @@ using DialogueEditor;
 public class ConversitaionStart : MonoBehaviour
 {
     public NPCConversation conversation;
+    public CharacterMovement player;
     void Start()
     {
         ConversationManager.Instance.StartConversation(conversation);
     }
 
    
-    void Update()
+    private void Update()
     {
-        
+        player.canMove = !ConversationManager.Instance.IsConversationActive;
     }
 }
