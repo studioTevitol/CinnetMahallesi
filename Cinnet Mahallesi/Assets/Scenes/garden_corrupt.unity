@@ -7527,7 +7527,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2054473226}
         m_TargetAssemblyTypeName: ChoiceScreen, Assembly-CSharp
-        m_MethodName: LuciferDeathAnim
+        m_MethodName: HideSplash
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7536,7 +7536,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!4 &899140080
 Transform:
   m_ObjectHideFlags: 0
@@ -8042,6 +8042,7 @@ MonoBehaviour:
   canMove: 1
   speed: 15
   jumpSpeed: 20
+  ending: 0
 --- !u!95 &1239148292
 Animator:
   serializedVersion: 4

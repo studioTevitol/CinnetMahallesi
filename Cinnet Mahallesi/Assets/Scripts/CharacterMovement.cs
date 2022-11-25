@@ -11,6 +11,7 @@ public class CharacterMovement : MonoBehaviour
     public bool canMove = true;
     public float speed;
     public float jumpSpeed;
+    public int ending = 0; // 0 = nihilist; 1 = good; 2 = bad;
     
     void Start()
     {
