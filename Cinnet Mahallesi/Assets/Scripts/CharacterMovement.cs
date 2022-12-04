@@ -11,12 +11,13 @@ public class CharacterMovement : MonoBehaviour
     public bool canMove = true;
     public float speed;
     public float jumpSpeed;
+    public Animator AdrianAnimator;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         shootManager = GetComponent<Shoot>();
-        
+        AdrianAnimator = GetComponentInChildren<Animator>();
     }
 
     void FixedUpdate()
@@ -24,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
         if(canMove) {
             float moveInput = Input.GetAxis("Horizontal");
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+            AdrianAnimator.SetFloat("Speed", Mathf.Abs(moveInput));
         }
         if (Input.GetKey(KeyCode.Space)) Jump();
         if (canMove && Input.GetKeyDown(KeyCode.Mouse0))
