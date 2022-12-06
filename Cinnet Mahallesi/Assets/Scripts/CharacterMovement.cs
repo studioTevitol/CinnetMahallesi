@@ -25,12 +25,12 @@ public class CharacterMovement : MonoBehaviour
         if(canMove) {
             float moveInput = Input.GetAxis("Horizontal");
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-            AdrianAnimator.SetFloat("Speed", Mathf.Abs(moveInput));
         }
+        AdrianAnimator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         if (Input.GetKey(KeyCode.Space)) Jump();
         if (canMove && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            if(shootManager != null) shootManager.Fire();
+            if(shootManager != nunl) shootManager.Fire();
         }
     }
 

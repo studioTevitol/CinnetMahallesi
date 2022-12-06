@@ -6,7 +6,14 @@ using DialogueEditor;
 public class ConversitaionStart : MonoBehaviour
 {
     public NPCConversation conversation;
-    void Start()
+    public CharacterMovement mvm;
+
+    void Start() 
+    {
+        mvm = GetComponent<CharacterMovement>();
+    }
+
+    void Awake()
     {
         ConversationManager.Instance.StartConversation(conversation);
     }
@@ -14,6 +21,6 @@ public class ConversitaionStart : MonoBehaviour
    
     void Update()
     {
-        
+        mvm.canMove = !ConversationManager.Instance.IsConversationActive;
     }
 }

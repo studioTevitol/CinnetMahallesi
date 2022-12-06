@@ -14,6 +14,11 @@ public class StarterScript : MonoBehaviour
         ConversationManager.Instance.StartConversation(conversation);
     }
 
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        Destroy(gameObject);
+    }
+
     private void Update()
     {
         player.canMove = !ConversationManager.Instance.IsConversationActive;

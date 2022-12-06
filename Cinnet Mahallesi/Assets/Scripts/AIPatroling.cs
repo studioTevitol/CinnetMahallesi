@@ -47,14 +47,12 @@ public class AIPatroling : MonoBehaviour
 
 			canMoveRight = true;
 			Flip();
-			print("Move Right");
 		}
 		else if (Vector3.Distance(transform.position, movePoints[1].position) <= 0.1f)
 		{
 			//transform.Rotate(0, 180, 0);
 			canMoveRight = false;
 			Flip();
-			print("Move Left");
 		}
 	}
 
@@ -63,13 +61,11 @@ public class AIPatroling : MonoBehaviour
 		if (canMoveRight)
 		{
 			transform.eulerAngles = new Vector3(transform.eulerAngles.x, 0, transform.eulerAngles.z);
-			Debug.Log("turn right");
 		}
 
 		if (!canMoveRight)
 		{
 			transform.eulerAngles = new Vector3(transform.eulerAngles.x, 180, transform.eulerAngles.z);
-			Debug.Log("turn left");
 		}
 	}
 

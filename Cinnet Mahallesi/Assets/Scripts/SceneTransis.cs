@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransis : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-	}
+		    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	  }
 }
