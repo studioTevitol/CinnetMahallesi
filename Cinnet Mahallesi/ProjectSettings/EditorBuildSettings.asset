@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/mainmenu_scene.unity
+    guid: ae768dbbfa7a8094e970fddea96b928b
+  - enabled: 1
     path: Assets/Scenes/House_Messy.unity
     guid: 7bc41cdcf027cbd4fa4cf3f1a8061623
   - enabled: 1
@@ -27,9 +30,15 @@ EditorBuildSettings:
     path: Assets/Scenes/arena3.unity
     guid: 21e0ad88fb59b384187c92f6d44c14ea
   - enabled: 1
+    path: Assets/Scenes/Cathedral.unity
+    guid: caa513920d4b71040ab289ec76bce0db
+  - enabled: 1
     path: Assets/Scenes/garden_not_corrupt.unity
     guid: 5d4cd5fd74d2dcc41bb2bb33622a88a0
   - enabled: 1
     path: Assets/Scenes/home_not_corrupt.unity
     guid: e468d135ca13a5e479a20b5db0f7c5c2
+  - enabled: 1
+    path: Assets/Scenes/credits_scene.unity
+    guid: 84e6e86346105514892019a65800e4b9
   m_configObjects: {}
