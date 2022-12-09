@@ -8,5 +8,10 @@ public class SceneTransis : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
 		    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-	  }
+	}
+
+    public void BackToHomeTransis()
+    {
+	    SceneManager.LoadScene("home_not_corrupt");
+	}
 }
