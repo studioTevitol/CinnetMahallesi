@@ -14,4 +14,9 @@ public class SceneTransis : MonoBehaviour
     {
 	    SceneManager.LoadScene("home_not_corrupt");
 	}
+    
+    public void CreditsTransis()
+    {
+	    SceneManager.LoadScene("credits_scene");
+    }
 }
