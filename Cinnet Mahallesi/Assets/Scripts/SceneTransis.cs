@@ -17,6 +17,6 @@ public class SceneTransis : MonoBehaviour
     
     public void CreditsTransis()
     {
-	    SceneManager.LoadScene("credits_scene");
+	    SceneManager.LoadScene("sandbox-credits");
     }
 }

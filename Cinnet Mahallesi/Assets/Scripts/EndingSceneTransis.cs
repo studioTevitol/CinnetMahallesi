@@ -15,7 +15,7 @@ public class EndingSceneTransis : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Cathedral_Chaos");
+            SceneManager.LoadScene("arena3");
         }
     }
 }
