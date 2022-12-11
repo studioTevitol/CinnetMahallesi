@@ -240,7 +240,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &253757979
 GameObject:
@@ -351,7 +351,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415124547
 GameObject:
@@ -531,7 +531,7 @@ RectTransform:
   m_Children:
   - {fileID: 1360754256}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -653,7 +653,6 @@ GameObject:
   - component: {fileID: 713454000}
   - component: {fileID: 713453999}
   - component: {fileID: 713453958}
-  - component: {fileID: 713454065}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2117,13 +2116,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2054473226}
-        m_TargetAssemblyTypeName: ChoiceScreen, Assembly-CSharp
-        m_MethodName: BadEnding
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ChoiceManager, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2194,18 +2193,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2054473226}
         m_TargetAssemblyTypeName: ChoiceScreen, Assembly-CSharp
         m_MethodName: HideSplash
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 2054473226}
-        m_TargetAssemblyTypeName: ChoiceScreen, Assembly-CSharp
-        m_MethodName: GoodEnding
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2855,37 +2842,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &713454065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713453957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1901593099}
-        m_TargetAssemblyTypeName: SceneTransis, Assembly-CSharp
-        m_MethodName: CreditsTransis
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 87
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -7326,66 +7282,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 88
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":515.5,\"yPos\":159},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    accept the Adventure!\",\"parentUIDs\":[51],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1117.5,\"yPos\":145},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"This
-    is too much for me!\",\"parentUIDs\":[51],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1521.5,\"yPos\":147},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"K\u0334\u0306\u030B\u035D\u030D\u035B\u0314\u033E\u0311\u030E\u0309\u0324\u032C\u0320\u0348\u031C\u0356i\u0337\u033F\u035B\u0346\u0358\u033E\u0331\u0322l\u0337\u0340\u0346\u0304\u0307\u0342\u033E\u035B\u0341\u031F\u0325\u032E\u031C\u031C\u0327\u0317l\u0337\u0306\u0303\u0300\u030D\u031A\u0309\u031B\u033E\u0360\u033F\u0350\u0344\u035D\u0340\u030E\u033B\u035A\u0330\u033A
+  CurrentIDCounter: 87
+  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":747,\"yPos\":159},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    accept the Adventure!\",\"parentUIDs\":[51],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1349,\"yPos\":145},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"This
+    is too much for me!\",\"parentUIDs\":[51],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1753,\"yPos\":147},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"K\u0334\u0306\u030B\u035D\u030D\u035B\u0314\u033E\u0311\u030E\u0309\u0324\u032C\u0320\u0348\u031C\u0356i\u0337\u033F\u035B\u0346\u0358\u033E\u0331\u0322l\u0337\u0340\u0346\u0304\u0307\u0342\u033E\u035B\u0341\u031F\u0325\u032E\u031C\u031C\u0327\u0317l\u0337\u0306\u0303\u0300\u030D\u031A\u0309\u031B\u033E\u0360\u033F\u0350\u0344\u035D\u0340\u030E\u033B\u035A\u0330\u033A
     \u0338\u0343\u0352\u0344\u0360\u0341\u0344\u0342\u033F\u033A\u032E\u031C\u0348\u0332\u032A'\u0338\u030F\u0303\u0306\u033E\u033E\u0360\u0302\u030E\u0358\u034C\u0343\u0313\u030A\u033F\u0346\u0329\u0331\u031C\u0321e\u0334\u0310\u0348\u0320\u0331\u0356\u0332\u0333\u034D\u032A\u0359m\u0337\u0313\u0303\u0342\u033E\u0300\u0306\u0341\u034A\u0309\u0307\u034E
-    \u0338\u035B\u031A\u033D\u0309\u0300\u0344\u0308\u030D\u0325\u0356\u032D\u033A\u033A\u032D\u0354\u031E\u0320a\u0338\u0351\u0304\u0350\u0310\u0310\u0311\u032E\u0318\u0353\u0319\u032El\u0336\u0343\u0308\u030E\u0309\u0315\u0308\u035A\u035A\u0353\u032B\u033B\u0359\u0332l\u0338\u0352\u0305\u033E\u0306\u0340\u0340\u0315\u030B\u0344\u0351\u030E\u0340\u030A\u032A\u031D\u0325\u0353!\u0336\u034B\u030B\u0357\u0340\u034C\u035D\u033F\u0351\u033D\u031E\u0330\u031D\u0326\u0355\u0345\u035C\u0328\u0333\u034E\u0327\u033A\u031E\u0333!\u0335\u035D\u0358\u030A\u033A\u0331\u035C\u0333\u032F\u032B\u035A\u031D\u0331\u034E\u033C\u032E\u033B\u0353!\u0335\u0313\u035B\u030C\u0346\u0342\u0343\u0315\u0303\u0300\u030E\u032F\u0348\u0322\u032B\",\"parentUIDs\":[51],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1157.5,\"yPos\":-3332},\"ID\":87,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Continue.\",\"parentUIDs\":[86],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":94.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
-    happened little guy? You shouldn\u2019t shout in a nice morning like this.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":94,\"yPos\":185},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Realizing
+    \u0338\u035B\u031A\u033D\u0309\u0300\u0344\u0308\u030D\u0325\u0356\u032D\u033A\u033A\u032D\u0354\u031E\u0320a\u0338\u0351\u0304\u0350\u0310\u0310\u0311\u032E\u0318\u0353\u0319\u032El\u0336\u0343\u0308\u030E\u0309\u0315\u0308\u035A\u035A\u0353\u032B\u033B\u0359\u0332l\u0338\u0352\u0305\u033E\u0306\u0340\u0340\u0315\u030B\u0344\u0351\u030E\u0340\u030A\u032A\u031D\u0325\u0353!\u0336\u034B\u030B\u0357\u0340\u034C\u035D\u033F\u0351\u033D\u031E\u0330\u031D\u0326\u0355\u0345\u035C\u0328\u0333\u034E\u0327\u033A\u031E\u0333!\u0335\u035D\u0358\u030A\u033A\u0331\u035C\u0333\u032F\u032B\u035A\u031D\u0331\u034E\u033C\u032E\u033B\u0353!\u0335\u0313\u035B\u030C\u0346\u0342\u0343\u0315\u0303\u0300\u030E\u032F\u0348\u0322\u032B\",\"parentUIDs\":[51],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":326,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    happened little guy? You shouldn\u2019t shout in a nice morning like this.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325.5,\"yPos\":185},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Realizing
     that there is a man in a \u201Cdemon costume\u201D in front of him, Adrian gets
-    mad.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":96,\"yPos\":300},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Who
+    mad.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327.5,\"yPos\":300},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Who
     are you dipshit? WHERE IS MY MOTHER? WHAT THE FUCK IS HAPPENING IN THIS FUCKING
-    DAY?\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":98,\"yPos\":424},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Relax
-    little guy. Ask your questions one by one.\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":99,\"yPos\":547},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Before
-    you ask,\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":100,\"yPos\":647},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    did not kidnap your mother. It was not me.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":123,\"yPos\":840},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    DAY?\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":329.5,\"yPos\":424},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Relax
+    little guy. Ask your questions one by one.\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":330.5,\"yPos\":547},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Before
+    you ask,\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":331.5,\"yPos\":647},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    did not kidnap your mother. It was not me.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":354.5,\"yPos\":840},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
     I am Lucifer. In the past I was a resident of hell. I even ruled it. But you
-    see, things don\u2019t always go as planned\u2026\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":355,\"yPos\":817},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"In
-    the Promised Lands \u2026\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":623,\"yPos\":812},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"God
-    kidnapped her.\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":705,\"yPos\":919},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Actually,
-    Angels did, but it was an order that given by the god\u2026\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":104.5,\"yPos\":744},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Who
-    the fuck are you?\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":216.5,\"yPos\":939},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Where
-    is my mother?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":450.5,\"yPos\":931},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
-    happened to my mother?!?!?!\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":854.5,\"yPos\":810},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Like
+    see, things don\u2019t always go as planned\u2026\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":586.5,\"yPos\":817},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"In
+    the Promised Lands \u2026\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":854.5,\"yPos\":812},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"God
+    kidnapped her.\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":936.5,\"yPos\":919},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Actually,
+    Angels did, but it was an order that given by the god\u2026\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":336,\"yPos\":744},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Who
+    the fuck are you?\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":448,\"yPos\":939},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Where
+    is my mother?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":682,\"yPos\":931},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    happened to my mother?!?!?!\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1086,\"yPos\":810},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Like
     I said, Your mother was kidnapped and now is prisoned in the Promised Lands.
-    What do you plan on doing now?\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":950.5,\"yPos\":909},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
-    was not sure if he should trust this creature that was calling itself \u201CLucifer\u201D\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1100.5,\"yPos\":801},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"But
+    What do you plan on doing now?\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1182,\"yPos\":909},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
+    was not sure if he should trust this creature that was calling itself \u201CLucifer\u201D\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1332,\"yPos\":801},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"But
     if it was correct, then that would mean his mother was at risk. He decided to
-    leave no chances behind.\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1223.5,\"yPos\":907},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Could
-    you help me?\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1356.5,\"yPos\":801},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Of
+    leave no chances behind.\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1455,\"yPos\":907},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Could
+    you help me?\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1588,\"yPos\":801},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Of
     Course. But you should know that if you choose to go this way there will be bloodshed.
-    Your soul may not carry the burden of massacaring the angels.\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1480.5,\"yPos\":905},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahahaha.
-    Personally, I can't wait to see you walk that path.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luciifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1616.5,\"yPos\":802},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    Your soul may not carry the burden of massacaring the angels.\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1712,\"yPos\":905},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahahaha.
+    Personally, I can't wait to see you walk that path.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luciifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1848,\"yPos\":802},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
     Lucifer mentioned does makes Adrian\u2019s feelings all turn to hatred. But he
-    remembers that Lucifer was a demon so he overlooks the conversation. \",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1723.5,\"yPos\":907},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"There
-    are two paths ahead of you little guy.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1875.5,\"yPos\":685},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Are
-    you brave enough to join to the adventure?\",\"parentUIDs\":[49],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1874.5,\"yPos\":484},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Or,
+    remembers that Lucifer was a demon so he overlooks the conversation. \",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1955,\"yPos\":907},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"There
+    are two paths ahead of you little guy.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":2107,\"yPos\":685},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Are
+    you brave enough to join to the adventure?\",\"parentUIDs\":[49],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":2106,\"yPos\":484},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Or,
     are you going to prefer living without this and die in your own fuckin\u2019
-    shell?\",\"parentUIDs\":[50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1114.5,\"yPos\":-49},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
+    shell?\",\"parentUIDs\":[50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lucifer\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1346,\"yPos\":-49},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
     feels that all that happened and all that will happen will be too much for him.
     Fighting god? Killing angels? Even if shenanigans like these could exist how
-    can HE be the one to do those?\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1132.5,\"yPos\":-154},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nah\u2026\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1122.5,\"yPos\":-284},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    guess, I guess I can not do it anymore\u2026\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1123.5,\"yPos\":-473},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"These
-    are fuckin\u2019 too much for me.\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":63}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1131.5,\"yPos\":-608},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"There
-    is no meaning in life.\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":64}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1149.5,\"yPos\":-860},\"ID\":63,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    don\u2019t give a shit about god\u2019s fucking plans!\",\"parentUIDs\":[62],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":65}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1121.5,\"yPos\":-1048},\"ID\":64,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
-    goes to the shore lost in his thoughts.\",\"parentUIDs\":[63],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":66}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1125.5,\"yPos\":-1183},\"ID\":65,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"If
-    nothing I do will end up on my gain,\",\"parentUIDs\":[64],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":67}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1131.5,\"yPos\":-1270},\"ID\":66,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Why
-    would I choose to pursue them?\",\"parentUIDs\":[65],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":68}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1161.5,\"yPos\":-1382},\"ID\":67,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"On
-    that note, how would deciding on ANY of this would help me gain shit?\",\"parentUIDs\":[66],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":69}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1202.5,\"yPos\":-1469},\"ID\":68,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Conquering the world?\",\"parentUIDs\":[67],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":70}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1178.5,\"yPos\":-1605},\"ID\":69,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fighting
-    demons?\",\"parentUIDs\":[68],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":71}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1192.5,\"yPos\":-1702},\"ID\":70,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Killing
-    the God?\",\"parentUIDs\":[69],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":72}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1222.5,\"yPos\":-1805},\"ID\":71,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
-    looks at the sky and the falling stars melancholically.\",\"parentUIDs\":[70],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":73}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1215.5,\"yPos\":-1924},\"ID\":72,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nothing
-    has any meaning.\",\"parentUIDs\":[71],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":74}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1201.5,\"yPos\":-2040},\"ID\":73,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    only exist because I will disappear someday,\",\"parentUIDs\":[72],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":75}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1208.5,\"yPos\":-2200},\"ID\":74,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    was born because I will die someday,\",\"parentUIDs\":[73],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":77}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1197.5,\"yPos\":-2322},\"ID\":75,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"And
-    to love someone is just about losing them someday.\",\"parentUIDs\":[74],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":78}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1182.5,\"yPos\":-2468},\"ID\":77,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    think,\",\"parentUIDs\":[75],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":79}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1145.5,\"yPos\":-2600},\"ID\":78,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    think god has an interesting sense of humour.\",\"parentUIDs\":[77],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":80}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1153.5,\"yPos\":-2719},\"ID\":79,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
-    thinks about the adventure that he preferred not to live.\",\"parentUIDs\":[78],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":84}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1151.5,\"yPos\":-2851},\"ID\":80,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    could have lived a life full of excitement, pain. But currently\u2026 I am here.\",\"parentUIDs\":[79],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":86}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1152.5,\"yPos\":-3084},\"ID\":83,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anyway,\",\"parentUIDs\":[84],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":83}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1158.5,\"yPos\":-2964},\"ID\":84,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[80],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":87}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1141.5,\"yPos\":-3232},\"ID\":86,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"as
+    can HE be the one to do those?\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1364,\"yPos\":-154},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nah\u2026\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1305,\"yPos\":-307},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    guess, I guess I can not do it anymore\u2026\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1378,\"yPos\":-606},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"These
+    are fuckin\u2019 too much for me.\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":63}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1403,\"yPos\":-458},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"There
+    is no meaning in life.\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":64}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1381,\"yPos\":-860},\"ID\":63,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    don\u2019t give a shit about god\u2019s fucking plans!\",\"parentUIDs\":[62],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":65}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1353,\"yPos\":-1048},\"ID\":64,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
+    goes to the shore lost in his thoughts.\",\"parentUIDs\":[63],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":66}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1357,\"yPos\":-1183},\"ID\":65,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"If
+    nothing I do will end up on my gain,\",\"parentUIDs\":[64],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":67}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1363,\"yPos\":-1270},\"ID\":66,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Why
+    would I choose to pursue them?\",\"parentUIDs\":[65],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":68}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1393,\"yPos\":-1382},\"ID\":67,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"On
+    that note, how would deciding on ANY of this would help me gain shit?\",\"parentUIDs\":[66],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":69}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1434,\"yPos\":-1469},\"ID\":68,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Conquering the world?\",\"parentUIDs\":[67],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":70}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1410,\"yPos\":-1605},\"ID\":69,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fighting
+    demons?\",\"parentUIDs\":[68],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":71}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1424,\"yPos\":-1702},\"ID\":70,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Killing
+    the God?\",\"parentUIDs\":[69],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":72}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1454,\"yPos\":-1805},\"ID\":71,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
+    looks at the sky and the falling stars melancholically.\",\"parentUIDs\":[70],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":73}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1447,\"yPos\":-1924},\"ID\":72,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nothing
+    has any meaning.\",\"parentUIDs\":[71],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":74}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1433,\"yPos\":-2040},\"ID\":73,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    only exist because I will disappear someday,\",\"parentUIDs\":[72],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":75}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1440,\"yPos\":-2200},\"ID\":74,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    was born because I will die someday,\",\"parentUIDs\":[73],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":77}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1429,\"yPos\":-2322},\"ID\":75,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"And
+    to love someone is just about losing them someday.\",\"parentUIDs\":[74],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":78}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1414,\"yPos\":-2468},\"ID\":77,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    think,\",\"parentUIDs\":[75],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":79}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1377,\"yPos\":-2600},\"ID\":78,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    think god has an interesting sense of humour.\",\"parentUIDs\":[77],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":80}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1385,\"yPos\":-2719},\"ID\":79,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Adrian
+    thinks about the adventure that he preferred not to live.\",\"parentUIDs\":[78],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":84}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1383,\"yPos\":-2851},\"ID\":80,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    could have lived a life full of excitement, pain. But currently\u2026 I am here.\",\"parentUIDs\":[79],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":86}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1384,\"yPos\":-3084},\"ID\":83,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anyway,\",\"parentUIDs\":[84],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":83}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1390,\"yPos\":-2964},\"ID\":84,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[80],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adrian\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1373,\"yPos\":-3232},\"ID\":86,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"as
     everybody knows life is not worth living\u2026\",\"parentUIDs\":[83],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -7464,7 +7420,6 @@ MonoBehaviour:
   - {fileID: 713454000}
   - {fileID: 713453999}
   - {fileID: 713453958}
-  - {fileID: 713454065}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -7484,7 +7439,7 @@ Transform:
   m_Children:
   - {fileID: 713453998}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905344378
 GameObject:
@@ -7568,7 +7523,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919987196
 GameObject:
@@ -7685,7 +7640,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1040268181
 GameObject:
@@ -7757,7 +7712,7 @@ Transform:
   - {fileID: 838766237}
   - {fileID: 919987197}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278607913
 GameObject:
@@ -9533,7 +9488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6314081683395884425, guid: f8f45e4ccae716c4282580fb7bd50f84, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6314081683395884425, guid: f8f45e4ccae716c4282580fb7bd50f84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10673,74 +10628,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &1901593098
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7745041999199733187, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_Name
-      value: backtohome
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 234.07306
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 244.4271
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.008022763
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745041999199733189, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
---- !u!114 &1901593099 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7745041999199733188, guid: cc929df8e0c9fbad2881c07677261b27, type: 3}
-  m_PrefabInstance: {fileID: 1901593098}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 503baa1a081678f4891439c18bf7c037, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1906114013
 GameObject:
   m_ObjectHideFlags: 0
@@ -10861,7 +10748,7 @@ Transform:
   - {fileID: 1483406374}
   - {fileID: 733722382}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2054473225
 GameObject:
@@ -10907,7 +10794,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123443561
 GameObject:
@@ -10975,7 +10862,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4770827551614479408
 MonoBehaviour:
@@ -10996,7 +10883,6 @@ MonoBehaviour:
   speed: 12
   jumpSpeed: 20
   AdrianAnimator: {fileID: 0}
-  endingNumber: 0
 --- !u!61 &4770827551614479409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11037,7 +10923,7 @@ Transform:
   m_Children:
   - {fileID: 4770827552112139229}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4770827551614479422
 GameObject:
@@ -11185,6 +11071,71 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &6682483892707329175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782896, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682483891633782897, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 4770827551614479408}
+    - target: {fileID: 6682483891633782897, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: conversation
+      value: 
+      objectReference: {fileID: 899140079}
+    - target: {fileID: 6682483891633782898, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
+      propertyPath: m_Name
+      value: Trigger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b44efff548df9567dad84e7e87cd2a99, type: 3}
 --- !u!114 &7630194942547951686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11197,68 +11148,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8dae09f9c2e014a9850177f1f057f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &8775226998971816187
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796060, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775226997898796061, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 4770827551614479408}
-    - target: {fileID: 8775226997898796061, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: conversation
-      value: 
-      objectReference: {fileID: 899140079}
-    - target: {fileID: 8775226997898796062, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}
-      propertyPath: m_Name
-      value: Trigger
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 60c4f096bf1847145815098fd0d03a91, type: 3}

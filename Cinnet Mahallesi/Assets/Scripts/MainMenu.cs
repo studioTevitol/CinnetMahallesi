@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
 
 	public void Credits()
 	{
-		SceneManager.LoadScene("sandbox-credits");
+		SceneManager.LoadScene("credits_scene");
 	}
 
 	public void ExitGame()
