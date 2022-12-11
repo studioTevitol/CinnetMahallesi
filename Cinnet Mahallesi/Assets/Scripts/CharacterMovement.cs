@@ -13,6 +13,9 @@ public class CharacterMovement : MonoBehaviour
     public float jumpSpeed;
     public Animator AdrianAnimator;
     
+    //End
+    public int endingNumber; //0=Good Ending, 1=Bad Ending
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
