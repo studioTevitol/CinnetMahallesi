@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChoiceScreen : MonoBehaviour
 {
     public GameObject splash;
-    public Transform player;
+    public CharacterMovement player;
     
     public void ShowSplash()
     {
@@ -19,6 +19,16 @@ public class ChoiceScreen : MonoBehaviour
 
     public void NihilistEnding()
     {
-        player.position = new Vector3(-26.5f,-1f,0f);
+        player.gameObject.transform.position = new Vector3(-26.5f,-1f,0f);
+    }
+
+    public void GoodEnding()
+    {
+        player.endingNumber = 0;
+    }
+
+    public void ChaosEnding()
+    {
+        player.endingNumber = 1;
     }
 }

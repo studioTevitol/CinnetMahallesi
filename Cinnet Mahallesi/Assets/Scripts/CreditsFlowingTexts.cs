@@ -13,9 +13,9 @@ public class CreditsFlowingTexts : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y >= 1300)   
+        if (transform.position.y >= 1300)
         {
-            Application.Quit();
+            SceneManager.LoadScene("mainmenu_scene");
         }
     }
 }

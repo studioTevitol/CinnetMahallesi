@@ -12,6 +12,7 @@ public class StarterScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         ConversationManager.Instance.StartConversation(conversation);
+        Debug.Log("trigger enter");
     }
 
     private void OnTriggerExit2D(Collider2D col)
