@@ -11,7 +11,6 @@ public class ConversitaionStart : MonoBehaviour
     void Start() 
     {
         mvm = GetComponent<CharacterMovement>();
-
     }
 
     void Awake()
