@@ -8,7 +8,6 @@ public class MainMenu : MonoBehaviour
 	{
 		SceneManager.LoadScene("House_Messy");
 	}
-
 	public void Credits()
 	{
 		SceneManager.LoadScene("credits_scene");
