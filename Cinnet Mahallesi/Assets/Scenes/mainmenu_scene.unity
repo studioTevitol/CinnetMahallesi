@@ -1045,7 +1045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2730255075106037089, guid: 15a8eb8a2c5f12f459c3fe400f870fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 428.03683
+      value: 307
       objectReference: {fileID: 0}
     - target: {fileID: 2730255075106037089, guid: 15a8eb8a2c5f12f459c3fe400f870fd9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1083,6 +1083,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2730255075106037094, guid: 15a8eb8a2c5f12f459c3fe400f870fd9, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9beb4e9dfe22ddd498293dab110562af, type: 3}
     - target: {fileID: 2730255075106037095, guid: 15a8eb8a2c5f12f459c3fe400f870fd9, type: 3}
       propertyPath: m_Name
       value: BackgroundAudio

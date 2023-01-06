@@ -4914,6 +4914,7 @@ MonoBehaviour:
   speed: 12
   jumpSpeed: 20
   AdrianAnimator: {fileID: 0}
+  endingNumber: 0
 --- !u!114 &2763953714335678985
 MonoBehaviour:
   m_ObjectHideFlags: 0
